@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circuitos Integrados</title>
+    <link rel="stylesheet" href="ESTILOS.css">
+</head>
+
+<body>
+    <header>
+        <div class="ancho">
+            <div class="logo">
+                <img src="logo3.png" alt="">
+            </div>
+            <h1 class="titulo">
+                <p>Universidad del Valle</p>
+                <p>Sede Zarzal</p>
+            </h1>
+        </div>
+    </header>
+    <br>
+    <h2 class="subtitulo">
+        <p class="solid">INTRODUCCION</p>
+        <br>
+        <p class="solid">El desarrollo del montaje va basado a la instrumentación médica, conociendo el proceso y realización de cada componente, el detector de ritmo cardiaco por medio de sensores infrarrojos fue el desarrollo principal por medio teniendo el conocimiento
+            de los amplificadores operacionales y arduino.</p>
+        <br>
+        <h2 class="subtitulo">
+            <p class="solid">MATERIALES </p>
+            <br>
+            <p class="solid">-Arduino -LM324 -Buzzer -Sensores Infrarrojas -2x capacitor electrolítico 1uf -2x capacitores cerámicos 104 o 0.1uf -Resistencias varias -Transistor NPN BC548
+                <br>
+                <h2 class="subtitulo">
+                    <p class="solid">OBSERVACIONES </p>
+                    <br>
+                    <p class="solid">Las observaciones que se presentaron durante el desarrollo fueron algunas por motivos de que en la gráfica serial no se presentaba el pulso correctamente; Por lo tanto, días anteriores realice el debido montaje y código por este la
+                        señal de cada pulso fue asi:</p>
+                    <br>
+                    <p class="solid">Serial potter tomada días antes se nota la distorsión porque se usó una resistencia de 39k </p>
+                    <br>
+                    <img src="39k.png" class="center" style="width:500px"></img>
+                    <br>
+                    <p class="solid">Si colocamos una resistencia de 390k entre el puerto A0 del arduino que comunica al serial potter y el GND la señal será más limpia:</p>
+                    <br>
+                    <img src="390k.png" class="center" style="width:500px"></img>
+                    <br>
+                    <p class="solid"> CONCLUSION </p>
+                    <br>
+                    <p class="solid"> Por lo tanto mi problemática fue que días después mi computador presento fallas por el mal uso que le di en apagarlo sin cerrar las aplicaciones por lo tanto me toco formatearlo inesperada mente eliminando todo en el ordenador incluyendo
+                        librerías puertos de COM que es el necesario en este proceso por tal caso mi grafica no se notó igual como en el video ya que insistí en mirar cada error o detallé tanto físicos o en el ordenador, pero no se dio una respuesta igual
+                        a los pulsos anteriores. </p>
+                </h2>
+</body>
+
+</html>
